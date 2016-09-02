@@ -2,10 +2,23 @@
 :LOGBOOK:
 CLOCK: [2016-09-02 Fri 10:00]--[2016-09-02 Fri 10:49] =>  0:49
 :END:
-* DOIN create dist directory
+* DONE create dist directory
+CLOSED: [2016-09-02 Fri 12:47]
 :LOGBOOK:
-CLOCK: [2016-09-02 Fri 10:49]
+- State "DONE"       from "DOIN"       [2016-09-02 Fri 12:47]
+CLOCK: [2016-09-02 Fri 10:49]--[2016-09-02 Fri 12:47] =>  1:58
 - State "DOIN"       from              [2016-09-02 Fri 10:49]
 :END:
-* clean script.
-* add testing (http://twofuckingdevelopers.com/2016/01/testing-angular-2-with-karma-and-jasmine/)
+* DONE clean script.
+CLOSED: [2016-09-02 Fri 12:47]
+:LOGBOOK:
+- State "DONE"       from              [2016-09-02 Fri 12:47]
+:END:
+* TODO add testing (http://twofuckingdevelopers.com/2016/01/testing-angular-2-with-karma-and-jasmine/)
+:LOGBOOK:
+CLOCK: [2016-09-02 Fri 12:47]
+- State "TODO"       from              [2016-09-02 Fri 12:47]
+:END:
+* stop serving up files from outside dist directory
+- node_modules
+- index.html, styles.css, systemjs.config.js
