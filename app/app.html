@@ -1,0 +1,16 @@
+<h1>My First Angular 2 App</h1>
+<form>
+  <input type="text" [formControl]="text"/>
+  <select [formControl]="month">
+    <option *ngFor="let month of months"
+            value={{month}}>{{month}}</option>
+  </select>
+</form>
+
+<hr>
+{{stuff | json}}
+
+<hr>
+<ol>
+  <li *ngFor="let result of searchResults">>>{{result}}<<<li>
+</ol>

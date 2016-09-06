@@ -2,7 +2,7 @@
   "name": "ng2-rxjs-experiment",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run clean && npm run tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "npm run clean && npm run tsc && cp app/app.html dist && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",

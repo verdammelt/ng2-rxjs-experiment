@@ -1,24 +1,38 @@
-* DONE Hello world app
+* Things to do
+** DONE Hello world app
 :LOGBOOK:
 CLOCK: [2016-09-02 Fri 10:00]--[2016-09-02 Fri 10:49] =>  0:49
 :END:
-* DONE create dist directory
+** DONE create dist directory
 CLOSED: [2016-09-02 Fri 12:47]
 :LOGBOOK:
 - State "DONE"       from "DOIN"       [2016-09-02 Fri 12:47]
 CLOCK: [2016-09-02 Fri 10:49]--[2016-09-02 Fri 12:47] =>  1:58
 - State "DOIN"       from              [2016-09-02 Fri 10:49]
 :END:
-* DONE clean script.
+** DONE clean script.
 CLOSED: [2016-09-02 Fri 12:47]
 :LOGBOOK:
 - State "DONE"       from              [2016-09-02 Fri 12:47]
 :END:
-* TODO add testing (http://twofuckingdevelopers.com/2016/01/testing-angular-2-with-karma-and-jasmine/)
+** TODO add testing 
 :LOGBOOK:
-CLOCK: [2016-09-02 Fri 12:47]
+CLOCK: [2016-09-02 Fri 13:44]--[2016-09-02 Fri 13:46] =>  0:02
+CLOCK: [2016-09-02 Fri 12:47]--[2016-09-02 Fri 13:44] =>  0:57
 - State "TODO"       from              [2016-09-02 Fri 12:47]
 :END:
-* stop serving up files from outside dist directory
+(http://twofuckingdevelopers.com/2016/01/testing-angular-2-with-karma-and-jasmine/)
+** stop serving up files from outside dist directory
 - node_modules
 - index.html, styles.css, systemjs.config.js
+** Create dummy page with multiple inputs which 'search'
+:LOGBOOK:
+CLOCK: [2016-09-02 Fri 18:49]--[2016-09-02 Fri 19:21] =>  0:32
+CLOCK: [2016-09-02 Fri 17:53]--[2016-09-02 Fri 18:49] =>  0:56
+CLOCK: [2016-09-02 Fri 16:27]--[2016-09-02 Fri 16:36] =>  0:09
+CLOCK: [2016-09-02 Fri 13:46]--[2016-09-02 Fri 16:27] =>  2:41
+:END:
+[2016-09-02 Fri 13:45]
+
+I want to experiment with using rxjs for streaming the inputs and thus
+synchronizing the 'searching'.
